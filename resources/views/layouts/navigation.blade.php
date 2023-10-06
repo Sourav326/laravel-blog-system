@@ -19,7 +19,7 @@
                                 <a aria-current="page"
                                     class="{{ (Route::currentRouteName() == 'home') ? 'dark:text-blue-500 text-blue-700 font-black':'text-gray-700 dark:text-white' }} flex items-center text-base font-medium  hover:text-lime-600 hover:border-lime-600"
                                     href="{{route('home')}}">Home</a>
-                                <a class="{{ (Route::currentRouteName() == 'blog.index') ? 'dark:text-blue-500 text-blue-700 font-black':'text-gray-700 dark:text-white' }} flex items-center text-base font-medium text-gray-700  dark:text-white hover:text-lime-600  hover:border-lime-600"
+                                <a class="{{ (Route::currentRouteName() == 'blog.index') ? 'dark:text-blue-500 text-blue-700 font-black':'text-gray-700 dark:text-white' }} flex items-center text-base font-medium hover:text-lime-600  hover:border-lime-600"
                                     href="{{route('blog.index')}}">Blogs</a>
                             </div>
                         </div>
